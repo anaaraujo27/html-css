@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style> 
+    /*  SELETORES PERSONALIZADOS
+         # = id
+         . = class
+         : = pceudoclases
+         :: = pceudoelements
+         > = clíldren
+    */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(194, 215, 216);
+        }
+        h1{
+            text-align: center;
+        }
+        a{
+            color: rgb(187, 55, 55);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: black;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:active{
+            color: cadetblue;
+        }
+        a::after{
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color:  rgb(168, 167, 164);
+        }
+        .especial::after{
+            content: '  ☼';
+            color: cadetblue;
+        }
+        .especial{
+            background-color: rgb(194, 215, 216);
+        }
+    </style>
+</head>
+<body>
+    <h1>Pesrsonalizando links</h1>
+    <ul>
+        <li><a href="https://www.marimariamakeup.com/?gclid=Cj0KCQjw27mhBhC9ARIsAIFsETG_H_Pz4zrMZdQd-O6GNFh03n6fNDpiN2ohIjJ8KSEOaFnC7X7OhCIaAuX7EALw_wcB" class="especial">MaryMariaMakeup</a></li>
+        <li><a href="https://www.youtube.com/@MariMaria">Canal do Youtube</a></li>
+        <li><a href="https://www.instagram.com/marimariamakeup/channel/ ">Instagram</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,20 @@
+/* Color Theme Swatches in Hex */
+.Xpos-1-hex { color: #01568C; }
+.Xpos-2-hex { color: #036F8C; }
+.Xpos-3-hex { color: #048C80; }
+.Xpos-4-hex { color: #07A77B; }
+.Xpos-5-hex { color: #06BF7C; }
+
+/* Color Theme Swatches in RGBA */
+.Xpos-1-rgba { color: rgba(1, 86, 140, 1); }
+.Xpos-2-rgba { color: rgba(3, 111, 140, 1); }
+.Xpos-3-rgba { color: rgba(4, 140, 128, 1); }
+.Xpos-4-rgba { color: rgba(7, 167, 123, 1); }
+.Xpos-5-rgba { color: rgba(6, 191, 124, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Xpos-1-hsla { color: hsla(203, 98, 27, 1); }
+.Xpos-2-hsla { color: hsla(192, 95, 28, 1); }
+.Xpos-3-hsla { color: hsla(174, 94, 28, 1); }
+.Xpos-4-hsla { color: hsla(163, 91, 34, 1); }
+.Xpos-5-hsla { color: hsla(158, 93, 38, 1); }

@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(43, 43, 43);
+    text-align: center;
+}
+h1{ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 34px;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
