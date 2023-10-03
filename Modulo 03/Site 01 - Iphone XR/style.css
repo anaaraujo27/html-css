@@ -1,0 +1,186 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital@1&family=Montserrat&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-size: 100%;
+    background-color: #1C1C1C;
+    background-color: (68.15deg, #1C1C1C 16.62%, #747578 85.61%);
+    min-width: 320px;
+    margin: auto;
+}
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: #ABABAB;
+}
+
+.Logo_Apple {
+    width: 48px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.link1:hover {
+    text-decoration: underline;
+    color: #404142ab;
+}
+
+.link2:hover {
+    text-decoration: underline;
+    color: #404142ab;
+}
+
+.link3:hover {
+    text-decoration: underline;
+    color: #404142ab;
+}
+
+.conteudo01 > p{
+    color: white;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.conteudo01 > p > strong {
+    color: #ABABAB;
+    text-decoration: underline;
+}
+
+.conteudo01 > h1{
+    font-family: 'Instrument Sans', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 400;
+}
+
+
+.cores {
+    width: 430px;
+    height: 430px;
+}
+
+.video {
+    margin-left: 335px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    box-shadow: 0, 0, 0, 6;
+}
+
+.conteudo02 > p {
+    color: white;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px;
+    font-weight: 400;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.conteudo02 > p > strong {
+    color: #ABABAB;
+    text-decoration: underline;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: #ABABAB;
+}
+
+.link01 {
+    color: #1C1C1C;
+    font-family: 'Instrument Sans', sans-serif;
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.link02 {
+    color: #1C1C1C;
+    font-family: 'Instrument Sans', sans-serif;
+    margin-left: 10px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.link01:hover {
+    font-size: 19px;
+    text-decoration: underline;
+}
+
+.link02:hover {
+    font-size: 19px;
+    text-decoration: underline;
+}
+
+footer > p {
+    color: black;
+    font-family: 'Instrument Sans', sans-serif;
+    text-align: center;
+    padding: 5px;
+    font-size: 17px;
+}
+
+.preços_conteudo {
+    display: flex;
+    background-color: #747578;
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px;
+    display: block;
+    margin: 50px;
+    border-radius: 30px;
+    margin-right: 600px;
+}
+
+.preços_conteudo > ul > p {
+    color: black;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+.ddd {
+    display: block;
+    font-size: 17px;
+}
+
+.preço1:hover {
+    text-decoration: underline;
+}
+
+.preço2:hover {
+    text-decoration: underline;
+}
+
+.preço3:hover {
+    text-decoration: underline;
+}
+
+.preço4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
